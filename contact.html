@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Arielle's Boutique</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Arielle's Boutique</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <div class="container">
+                <h1>Get in Touch</h1>
+                <p>Visit us or reach out - we'd love to hear from you!</p>
+            </div>
+        </section>
+
+        <section class="contact-info">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <h3>Main Boutique</h3>
+                        <p><strong>Address:</strong> 123 Fashion Avenue, New York, NY 10001</p>
+                        <p><strong>Phone:</strong> (555) 123-4567</p>
+                        <p><strong>Email:</strong> main@ariellesboutique.com</p>
+                        <p><strong>Hours:</strong></p>
+                        <ul>
+                            <li>Monday-Friday: 10am-7pm</li>
+                            <li>Saturday: 10am-6pm</li>
+                            <li>Sunday: 12pm-5pm</li>
+                        </ul>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3>Flagship Store</h3>
+                        <p><strong>Address:</strong> 456 Style Street, Los Angeles, CA 90001</p>
+                        <p><strong>Phone:</strong> (555) 987-6543</p>
+                        <p><strong>Email:</strong> la@ariellesboutique.com</p>
+                        <p><strong>Hours:</strong></p>
+                        <ul>
+                            <li>Monday-Friday: 11am-8pm</li>
+                            <li>Saturday: 10am-7pm</li>
+                            <li>Sunday: 11am-6pm</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="map-section">
+            <div class="container">
+                <h2>Find Us</h2>
+                <div class="map-container">
+                    <div class="map-item">
+                        <h3>New York Boutique</h3>
+                        <div class="map-placeholder">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1422937950147!2d-73.98731968459395!3d40.75805097932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1651234567890!5m2!1sen!2sus" 
+                                width="100%" 
+                                height="300" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                    
+                    <div class="map-item">
+                        <h3>Los Angeles Boutique</h3>
+                        <div class="map-placeholder">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.1333343246!2d-118.243682484783!3d34.05223498060381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2sus!4v1651234567890!5m2!1sen!2sus" 
+                                width="100%" 
+                                height="300" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="form-wrapper">
+                    <div class="form-info">
+                        <h2>Send Us a Message</h2>
+                        <p>Whether you have questions about our products, need styling advice, or want to share your shopping experience, we're here to listen.</p>
+                        
+                        <div class="quick-contacts">
+                            <h3>Other Ways to Reach Us</h3>
+                            <div class="contact-methods">
+                                <div class="contact-method">
+                                    <strong>Customer Service:</strong><br>
+                                    (555) 123-4567<br>
+                                    Available 9am-6pm EST
+                                </div>
+                                <div class="contact-method">
+                                    <strong>Email Support:</strong><br>
+                                    support@ariellesboutique.com<br>
+                                    Response within 24 hours
+                                </div>
+                                <div class="contact-method">
+                                    <strong>Social Media:</strong><br>
+                                    @ariellesboutique<br>
+                                    DM us for quick questions
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form">
+                        <h2>Contact Form</h2>
+                        
+                        <div class="form-group">
+                            <label for="contact-name">Full Name *</label>
+                            <input type="text" id="contact-name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-email">Email Address *</label>
+                            <input type="email" id="contact-email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-phone">Phone Number</label>
+                            <input type="tel" id="contact-phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-location">Preferred Location</label>
+                            <select id="contact-location" name="location">
+                                <option value="">Select location...</option>
+                                <option value="new-york">New York Boutique</option>
+                                <option value="los-angeles">Los Angeles Boutique</option>
+                                <option value="online">Online Customer Service</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-subject">Subject *</label>
+                            <input type="text" id="contact-subject" name="subject" placeholder="How can we help you?" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-message">Message *</label>
+                            <textarea id="contact-message" name="message" rows="6" placeholder="Tell us more about your inquiry..." required></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="contact-updates" name="updates">
+                            <label for="contact-updates">I'd like to receive updates about new arrivals and exclusive offers</label>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Arielle's Boutique</h3>
+                    <p>Your destination for affordable chic style</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <p>Instagram: @ariellesboutique</p>
+                    <p>Facebook: Arielle's Boutique</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Arielle's Boutique. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

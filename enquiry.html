@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry - Arielle's Boutique</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Arielle's Boutique</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="enquiry.html" class="active">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="enquiry-hero">
+            <div class="container">
+                <h1>Product Enquiry</h1>
+                <p>Have questions about our products? We're here to help!</p>
+            </div>
+        </section>
+
+        <section class="enquiry-form">
+            <div class="container">
+                <div class="form-container">
+                    <div class="form-info">
+                        <h2>Get in Touch</h2>
+                        <p>Whether you need sizing information, want to know more about our materials, or have any other questions about our products, our team is ready to assist you.</p>
+                        
+                        <div class="contact-info">
+                            <h3>Quick Contact Info</h3>
+                            <p><strong>Email:</strong> info@ariellesboutique.com</p>
+                            <p><strong>Phone:</strong> (555) 123-4567</p>
+                            <p><strong>Hours:</strong> Monday-Friday 9am-6pm EST</p>
+                        </div>
+
+                        <div class="faq-preview">
+                            <h3>Frequently Asked Questions</h3>
+                            <ul>
+                                <li><strong>What sizes do you carry?</strong> We offer sizes XS-XXL</li>
+                                <li><strong>Do you ship internationally?</strong> Yes, we ship worldwide</li>
+                                <li><strong>What's your return policy?</strong> 30-day hassle-free returns</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <form class="enquiry-form-element">
+                        <h2>Send us a Message</h2>
+                        
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="product">Product Enquiry *</label>
+                            <select id="product" name="product" required>
+                                <option value="">Select a product...</option>
+                                <option value="silk-dress">Silk Evening Dress</option>
+                                <option value="leather-handbag">Leather Handbag</option>
+                                <option value="statement-necklace">Statement Necklace</option>
+                                <option value="cashmere-sweater">Cashmere Sweater</option>
+                                <option value="designer-sunglasses">Designer Sunglasses</option>
+                                <option value="trench-coat">Classic Trench Coat</option>
+                                <option value="silk-scarf">Silk Scarf</option>
+                                <option value="ankle-boots">Leather Ankle Boots</option>
+                                <option value="wool-blazer">Wool Blazer</option>
+                                <option value="general">General Product Question</option>
+                                <option value="custom">Custom Order Inquiry</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" placeholder="e.g., Sizing question, Material information, etc." required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Please provide details about your enquiry..." required></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">I'd like to receive updates about new products and special offers</label>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Enquiry</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="response-time">
+            <div class="container">
+                <h2>What to Expect</h2>
+                <div class="response-grid">
+                    <div class="response-item">
+                        <h3>Quick Response</h3>
+                        <p>We aim to respond to all enquiries within 24 hours during business days.</p>
+                    </div>
+                    <div class="response-item">
+                        <h3>Expert Advice</h3>
+                        <p>Our team knows every product inside and out to give you accurate information.</p>
+                    </div>
+                    <div class="response-item">
+                        <h3>Personal Service</h3>
+                        <p>Each enquiry is handled personally to ensure you get the best assistance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Arielle's Boutique</h3>
+                    <p>Your destination for affordable chic style</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <p>Instagram: @ariellesboutique</p>
+                    <p>Facebook: Arielle's Boutique</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Arielle's Boutique. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
