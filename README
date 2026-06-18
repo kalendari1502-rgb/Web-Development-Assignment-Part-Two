@@ -1,0 +1,114 @@
+<!DOCTYPE readme>
+**Live URL:** https://kalendari1502-rgb.github.io/Web-Development-Assignment-Part-Two/index.html
+
+## Student Information
+- **Name:** Arielle Kalenda
+- **Student Number:** ST10531911
+- **Institution:** Rosebank International Braamfontein
+- **Module:** WEDE5020
+
+## Project Overview
+Arielle's Boutique is a simple e-commerce website for a fictional boutique that sells stylish, affordable clothing. The website allows users to browse products, make enquiries, and contact the store.
+
+## Website Goals and Objectives
+- To sell unique fashion items online
+- To provide product information and an enquiry form
+- To increase brand visibility
+- To create a responsive, mobile-friendly experience
+
+## Key Features and Functionality
+- Product listing page with grid layout
+- Enquiry form for product questions
+- Contact page with two locations and maps
+- Responsive design (desktop, tablet, mobile)
+- Form validation using JavaScript
+- Interactive elements for better user experience
+
+## Sitemap
+- Homepage (index.html)
+- About Us (about.html)
+- Products (products.html)
+- Enquiry (enquiry.html)
+- Contact (contact.html)
+
+---
+
+## Part 2: CSS Styling and Responsive Design
+
+### Styling Features
+- External CSS file with reset, base styles, and typography (Montserrat, Playfair Display)
+- Layout using CSS Grid (product grids) and Flexbox (navigation, footer, forms)
+- Hover effects on buttons, cards, and navigation links
+- Consistent colour scheme (purple/blue gradients, red accents)
+
+### Responsive Design
+- Breakpoints at 768px (tablet) and 480px (mobile)
+- Single-column layout on smaller screens
+- Hamburger menu for mobile
+- Relative units: `rem` for font sizes, `%` for widths
+
+---
+
+## Changelog
+
+### 2026-06-18 – Part 2 Feedback Corrections
+- Created "Part One Improvements" document listing all Part 1 feedback and fixes
+- Created "Part Two Improvements" document listing all Part 2 feedback and fixes
+- Updated README with missing references (Harvard style)
+- Added references: MDN Web Docs, W3Schools, Pexels, Netlify, Google Fonts, IIE PoE Guidelines
+- Improved commit messages to be more descriptive
+
+### 2026-06-10 – Part 2 CSS Styling
+- Created external stylesheet with reset, base styles, typography
+- Used CSS Grid for product grids and Flexbox for navigation
+- Added hover effects and pseudo-classes (:hover, :focus)
+- Implemented responsive design with media queries (768px, 480px)
+- Added srcset attributes for responsive images
+
+### 2026-05-29 – Part 1 Proposal
+- Submitted two proposals (boutique + NGO)
+- Created wireframes and sitemap
+- Completed HTML structure for all 5 pages
+
+## Part 3: JavaScript Interactivity and SEO
+
+### JavaScript Features Added
+- Mobile hamburger menu toggle
+- Form validation for enquiry and contact pages
+- Lightbox gallery for product images
+- Product search functionality
+- Smooth scrolling and scroll effects
+
+### SEO Implemented
+- Meta descriptions and keywords on all pages
+- Descriptive alt text for images
+- Robots.txt file
+- Sitemap.xml file
+- Clean URL structure
+
+### Deployment
+- Website deployed on GitHub Pages
+- Live URL: https://YOUR-USERNAME.github.io/YOUR-REPO/
+---
+
+## References
+
+- MDN Web Docs. (2026). *JavaScript Form Validation*. Available at: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation (Accessed 18 June 2026).
+
+- MDN Web Docs. (2026). *CSS Grid Layout*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout (Accessed 18 June 2026).
+
+- MDN Web Docs. (2026). *Responsive Design*. Available at: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design (Accessed 18 June 2026).
+
+- W3Schools. (2026). *CSS Tutorial*. Available at: https://www.w3schools.com/css/ (Accessed 18 June 2026).
+
+- W3Schools. (2026). *JavaScript Tutorial*. Available at: https://www.w3schools.com/js/ (Accessed 18 June 2026).
+
+- W3Schools. (2026). *HTML Forms*. Available at: https://www.w3schools.com/html/html_forms.asp (Accessed 18 June 2026).
+
+- Pexels. (2026). *Free Stock Photos*. Available at: https://www.pexels.com (Accessed 18 June 2026).
+
+- The Independent Institute of Education. (2026). *WEDE5020 PoE Guidelines*. Provided in course materials.
+
+- Netlify. (2026). *Free Web Hosting*. Available at: https://www.netlify.com (Accessed 18 June 2026).
+
+- Google. (2026). *Google Fonts*. Available at: https://fonts.google.com (Accessed 18 June 2026).
